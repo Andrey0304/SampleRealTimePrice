@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+  my_app:
+#    restart: always
+    environment:
+      PIP_DEFAULT_TIMEOUT: 300  # second
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000

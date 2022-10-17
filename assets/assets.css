@@ -1,0 +1,45 @@
+html,
+body,
+div,
+span,
+object {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body{
+    background-color: #7fafdf;
+    margin: 0;
+}
+
+.general {
+    height: 60vh,
+    width: 60%,
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background-color: #252e3f;
+    padding: 5rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    height: 10vh;
+    text-align: center;
+}
+
+.tickers {
+    margin-bottom: 2rem;
+}
+
+.plot {
+}

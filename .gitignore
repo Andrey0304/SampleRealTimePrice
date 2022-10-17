@@ -1,0 +1,11 @@
+.venv3.10/
+
+.env
+.venv
+
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+cache
+
+.vscode
