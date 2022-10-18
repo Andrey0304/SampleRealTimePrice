@@ -32,8 +32,8 @@ FIG = go.Figure(
             zerolinecolor='rgb(128, 255, 159)',
             zerolinewidth=0.1,
         ),
-        paper_bgcolor='rgb(37,46,63)',
-        plot_bgcolor='rgb(37,46,63)',
+        paper_bgcolor='rgb(31,38,48)',
+        plot_bgcolor='rgb(31,38,48)',
     )
 )
 
@@ -48,7 +48,7 @@ app.layout = html.Div(
         html.Div(
             className='title',
             children=[
-                html.P('HELLO', id='head')
+                html.P('Price change in real time', className='head')
             ]
         ),
         html.Div(
@@ -60,8 +60,8 @@ app.layout = html.Div(
                     options=LIST_OF_TICKERS,
                     placeholder='Ticker',
                     searchable=True,
-                    maxHeight=200,
-                    optionHeight=20
+                    maxHeight=100,
+                    optionHeight=20,
                 ),
             ]
         ),
@@ -122,4 +122,4 @@ if __name__ == '__main__':
     t = threading.Thread(target=generate_data)
     t.start()
 
-    app.run_server(port=8010, debug=True)
+    app.run_server(port=8000, host='0.0.0.0', debug=True)
