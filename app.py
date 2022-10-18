@@ -12,13 +12,13 @@ FIG = go.Figure(
     layout=dict(
         title=dict(
             text='Price: 0',
-            font=dict(size=30, color='rgb(128, 255, 159)')
+            font=dict(size=30, color='rgb(57, 247, 171)')
         ),
         xaxis=dict(
             title='time',
             autorange=True,
             showline=False,
-            color='rgb(128, 255, 159)',  # label color
+            color='rgb(57, 247, 171)',  # label color
             showgrid=True,
             minor=dict(showgrid=True),
         ),
@@ -26,10 +26,10 @@ FIG = go.Figure(
             title='price',
             autorange=True,
             showline=False,
-            color='rgb(128, 255, 159)',
+            color='rgb(57, 247, 171)',
             showgrid=False,
             zeroline=True,
-            zerolinecolor='rgb(128, 255, 159)',
+            zerolinecolor='rgb(57, 247, 171)',
             zerolinewidth=0.1,
         ),
         paper_bgcolor='rgb(31,38,48)',

@@ -40,20 +40,24 @@ body{
     text-align: center;
 }
 
+.Select {
+    color: #7fafdf;
+}
 .Select-control {
   background-color: #1f2630;
 }
-
 .Select-menu-outer {
   background-color: #1f2630;
+  cursor: pointer;
 }
-
 .Select-value {
     cursor: pointer;
 }
-
 .Select-value-label {
-    color: #7fafdf;
+    color: #7fafdf!important;
+}
+.Select div {
+    background-color: #1f2630;
 }
 
 .tickers {
